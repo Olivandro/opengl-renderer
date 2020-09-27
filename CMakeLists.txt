@@ -28,10 +28,10 @@ file(GLOB SOURCES "main.c")
 
 set(GLFW_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/glfw-3.3.2/include)
 set(GL_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/glew-2.1.0/include)
+set(LINMATH_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/linmath.h/include)
 
 
-
-include_directories(${GLFW_INCLUDE_DIR} ${GL_INCLUDE_DIR})
+include_directories(${GLFW_INCLUDE_DIR} ${GL_INCLUDE_DIR} ${LINMATH_INCLUDE_DIR})
 
 
 

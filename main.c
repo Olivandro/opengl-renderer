@@ -3,6 +3,7 @@
 #include <assert.h>
 #include <stdbool.h>
 #include <GL/glew.h>
+#include <linmath.h>
 #include <GLFW/glfw3.h>
 
 // Defining compiler directives to identify with OS is Apple. This is because Apple has its own subset 
